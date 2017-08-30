@@ -7,7 +7,7 @@
  * MIT Licensed.
  */
 
-Module.register('calendar', {
+Module.register('MMM-CustomCalendar', {
 
 	// Define module defaults
 	defaults: {
@@ -47,7 +47,7 @@ Module.register('calendar', {
 
 	// Define required scripts.
 	getStyles: function () {
-		return ['calendar.css', 'font-awesome.css'];
+		return ['MMM-CustomCalendar.css', 'font-awesome.css'];
 	},
 
 	// Define required scripts.
